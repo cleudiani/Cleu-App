@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sign Up Form by Colorlib</title>
+
+        <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+
+        <link rel="stylesheet" href="cadastrar.css">
+
+        <script>
+            function funcao1()
+            {
+            alert("Salvo com sucesso!!!!");
+            }
+            </script>
+
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <div class="signup-content">
+                <div class="signup-img">
+                    <img src="imges/logos_r-02-02.png" alt="">
+                </div>
+                <div class="signup-form">
+                    <form method="POST" class="register-form" id="register-form">
+                    <h2>Registration Form</h2>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full name :</label>
+                            <input type="text" name="name" id="name" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="father_name">Nickname :</label>
+                            <input type="text" name="nickname" id="nickname" required />
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Date :</label>
+                        <input type="date" name="data" id="data" required />
+                    </div>
+                    <div class="form-radio">
+                        <label for="gender" class="radio-label">Gender :</label>
+                        <div class="form-radio-item">
+                            <input type="radio" name="gender" id="male" checked>
+                            <label for="male">Male</label>
+                        <span class="check"></span>
+                        </div>
+                        <div class="form-radio-item">
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                            <span class="check"></span>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="state">State :</label>
+                        <div class="form-select">
+                            <select name="state" id="state">
+                            <option value=""></option>
+                            <option value="us">America</option>
+                            <option value="uk">English</option>
+                            <option value="losangeles">Acre</option>
+                            <option value="washington">Rio de Janeiro</option>
+                            <option value="losangeles">Rio Grande do Sul</option>
+                            <option value="washington">São Paulo</option>
+                            <option value="losangeles">Roraima</option>
+                            <option value="washington">Minas Gerais</option>
+                        </select>
+                        <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                        </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="city">City :</label>
+                            <div class="form-select">
+                                <select name="city" id="city">
+                                <option value=""></option>
+                                <option value="losangeles">Acre</option>
+                                <option value="washington">Rio de Janeiro</option>
+                                <option value="losangeles">Rio Grande do Sul</option>
+                                <option value="washington">São Paulo</option>
+                                <option value="losangeles">Roraima</option>
+                                <option value="washington">Minas Gerais</option>
+                            </select>
+                            <span class="select-icon"><i class="zmdi zmdi-chevron-down"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="cep">CEP :</label>
+                        <input type="number" name="cep" id="cep">
+                    </div>
+                    <div class="form-group">
+                        <label for="Telephone">Telephone :</label>
+                        <input type="tel" name="telephone" id="telephone">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password :</label>
+                        <input type="password" name="password" id="password">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email ID :</label>
+                        <input type="email" name="email" id="email" />
+                    </div>
+                    <div class="form-submit">
+                        <input type="submit"  value="Reset All" class="submit" name="reset" id="reset" />
+                        <input type="submit" onclick="funcao1()" value="Submit Form" class="submit" name="submit" id="submit" />
+                    </div>
+                </form>
+                </div>
+                </div>
+            </div>
+        </div>
+
+        
+    </body>
+</html>
